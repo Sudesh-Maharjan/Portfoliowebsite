@@ -1,0 +1,147 @@
+
+.contact-getintouch{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+   border-radius: 10px;
+    width: 550px;
+    height: 420px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.fullnamecontact-input, .emailcontact-input{
+    width: 400px;
+height: 29px;
+border: 1px solid rgb(156, 154, 154);
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+
+}
+.descriptioncontact{
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+margin-bottom: 10px;
+border: 1px solid grey;
+
+
+}
+.send-message-contact{
+    color: white;
+    border-radius: 3px;
+background: #2270E2;
+    width: 120px;
+height: 30px;
+cursor: pointer;
+border: none;
+}
+.get-in-touch-text{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.message-me{
+    /* background-color: beige; */
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.message-me-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.message-description{
+    /* background-color: blue; */
+    width: 120px;
+    margin-left: 30px;
+}
+.socialmedia-contact i{
+     font-size: 26px;
+     margin-left: 15px;
+     margin-top: 20px;
+     cursor: pointer;
+}
+.contact-details-container{
+    display: flex;
+    justify-content: center;
+}
+.phone-number-contact, .location-contact, .email-contact{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: 90px;
+    border-radius: 5px;
+    height: 110px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+    margin-top: 50px;
+}
+.phone-number-contact i{
+    font-size: 30px;
+    color: rgb(6, 166, 6);
+}
+.location-contact i{
+    font-size: 30px;
+    color: rgb(6, 166, 6);
+
+
+}
+.phone-number-contact:hover, .location-contact:hover, .email-contact:hover{
+    cursor: pointer;
+}
+.email-contact i{
+    font-size: 30px;
+    color: rgb(6, 166, 6);
+
+
+}
+
+@media only screen and (max-width: 1040px){
+    .phone-number-contact, .location-contact, .email-contact{
+        margin-left: 10px;
+    }
+    .form-contact{
+        width: 472px;
+    height: 325px;
+    }
+    .fullnamecontact-input, .emailcontact-input{
+        width: 350px;
+    height: 24px;
+    border: 1px solid rgb(156, 154, 154);
+    }
+    .descriptioncontact{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .form-contact{
+        width: 502px;
+    height: 365px;
+    margin-left: 25px;
+    }
+    .fullnamecontact-input, .emailcontact-input{
+        width: 350px;
+    height: 24px;
+    border: 1px solid rgb(156, 154, 154);
+    }
+    .descriptioncontact{
+        height: 100px;
+    }
+    .contact-getintouch{
+        display: block;
+    }
+    .message-me{
+        margin-left: auto;
+        margin-top: 20px;
+    }
+}

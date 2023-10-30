@@ -1,0 +1,287 @@
+.email-container{
+    list-style: none;
+    background-color: white;
+    /* border: 2px solid; */
+    color: black;
+    height: 21rem;
+    width:auto;
+}
+.email-receive{
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stay-in-touch{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email-input{
+    /* width: 20rem; */
+    height: 26px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    border: black solid 1px;
+    margin-bottom: 3px;
+}
+.email-text{ 
+    margin-top: 2px;
+    font-size: 17px;
+   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line{
+    background-color: green;
+    height: 2px;
+    width: 70px;
+    margin-bottom: 30px;
+}
+.subscribe-btn{
+    background-color: #2257c1;
+    color: white;
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.contact{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 10rem;
+    padding: 40px;
+}
+.contact-container{
+    display: flex;
+}
+.social-media{
+    margin-left: 10px;
+    width: 250px;
+    height: 70px;
+ }
+ .social-media i{
+    font-size: 23px;
+    margin-left: 15px;
+ }
+ .logo{
+    margin-left: 20rem;
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+}
+.email-footer{
+    margin-left: 30rem;
+    font-size: 20px;
+
+} 
+.made-by-10web{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    font-size: 20px;
+    justify-content: center;
+}
+.made-by-10web a{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo-img{
+    height: 30px;
+}
+@media only screen and (max-width: 1800px){
+    .contact{
+        padding: 10px;
+       
+    }
+    .contact-container{
+        display: flex;
+    }
+    .social-media{
+        margin-left: 20px;
+     }
+     .social-media i{
+        margin-left: 16px;
+     }
+     .logo-img{
+        height: 30px;
+
+    }
+    .email-footer{
+        margin-left: 18rem;
+    } 
+    .made-by-10web{
+        width: 350px;
+        height: 40px;
+        position: relative;
+        left: -517px;
+        top: 135px;
+    }
+    .email-input{
+        width: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width: 1210px){
+    .contact{
+        padding: 10px;
+       
+    }
+    .contact-container{
+        display: flex;
+    }
+    .social-media{
+        margin-left: 20px;
+     }
+     .social-media i{
+        margin-left: 16px;
+     }
+     .logo-img{
+        height: 30px;
+
+    }
+    .email-footer{
+        margin-left: 15rem;
+    } 
+    .made-by-10web{
+       position: absolute;
+       /* background-color: rgb(29, 62, 90); */
+       height: 20px;
+       width: 130px;
+       left: 550px;
+       top: 155px;
+    font-size: 18px;
+    }
+    .email-input{
+        width: 50%;
+    }
+}
+
+ @media only screen and (max-width: 992px){
+    .contact{
+        padding: 19px;
+       
+    }
+    .contact-container{
+        display: flex;
+    }
+    .social-media{
+        margin-left: 30px;
+        display: flex;
+     }
+     .social-media i{
+        margin-left: 16px;
+     }
+     .logo{
+        margin-left: 7rem;
+    }
+    .email-footer{
+        margin-left: 4rem;
+    } 
+    .made-by-10web{
+        position: absolute;
+       /* background-color: rgb(29, 62, 90); */
+       height: 20px;
+       width: 130px;
+       left: 370px;
+       top: 175px;
+    }
+    }
+    .email-input{
+        width: 50%;
+    }
+    
+
+
+@media only screen and (max-width: 768px){
+    .contact{
+        padding: 10px;
+        width: auto;
+    }
+    .social-media{
+        margin-left: 5px;
+     }
+     .social-media i{
+        margin-left: 5px;
+     }
+     .logo-img{
+        margin-left: 6rem;
+    }
+    .email-footer{
+        margin-left: 6rem;
+    } 
+    .made-by-10web{
+        position: absolute;
+        /* background-color: rgb(29, 62, 90); */
+        height: 20px;
+        width: 130px;
+        left: 290px;
+        top: 155px;
+    }
+    .email-input{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .contact{
+        /* padding: 10px; */
+        width: auto;
+        border: 2px solid;
+    }
+    .social-media{
+        margin-left: 5px;
+     }
+     .social-media i{
+        margin-left: 5px;
+     }
+     .logo-img{
+        margin-left: -5rem;
+        height: 15px;
+    }
+    .email-footer{
+        margin-left: 1rem;
+        font-size: 13px;
+    } 
+    .made-by-10web{
+        position: absolute;
+       /* background-color: rgb(29, 62, 90); */
+       height: 20px;
+       width: 130px;
+       left: 150px;
+       top: 155px;
+    }
+
+    .email-input{
+        height: 20px;
+        width: 200px;
+        margin-left: 30px; 
+    }
+    .subscribe-btn{
+        width: 80px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    .email-container{
+        list-style: none;
+        background-color: white;
+        /* border: 2px solid; */
+        color: black;
+        height: 21rem;
+        width:350px;
+    }
+    .stay-in-touch{
+        font-size: 30px;
+    }
+    .email-text{
+        font-size: 13px;
+    }
+}
